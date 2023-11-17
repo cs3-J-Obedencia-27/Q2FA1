@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Homework</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jelian">
+        <meta name="keyword" content="HTML, css, JavaScript">
+        <meta name="revised" content="11-17-23">
+      </head>
+            <style>
+            #one {
+				font-size: 18px;
+				background-color: rgb(152, 174, 184);
+			}
+            #one:link { 
+                font-size: 18px;
+			    background-color: rgb(75, 92, 94);
+                color: rgb(27, 44, 59);
+            }
+
+            #one:visited {color: rgb(151, 196, 247);}
+
+            #one:hover {color: rgb(33, 51, 59);}
+
+            #one:active {color: rgb(7, 71, 83);}
+            
+            #two {
+				background-color: #d5aae9;
+				font-size: 18px;
+            }
+            #two:link { 
+                font-size: 18px;
+			    background-color: rgb(116, 64, 129);
+                color: green;
+            }
+             
+            #two:visited {color: rgb(171, 109, 230);}
+
+            #two:hover {color: rgb(72, 56, 99);}
+
+            #two:active {color: rgb(95, 4, 62);}
+
+
+            #div1 {
+                top: 30px;
+				width: 100px;
+				height: 100px;
+				border: 1px solid rgb(13, 18, 49);
+				padding: 10px;
+				margin-bottom: 20px;
+            }
+
+            #div2 {
+                top: 30px;
+				width: 100px;
+				height: 100px;
+				border: 1px solid rgb(39, 10, 53);
+				padding: 10px;
+				margin-bottom: 20px;
+				display: block;
+            }
+
+
+            #div1:target {
+              background-color: rgb(78, 112, 163);
+              color: rgb(185, 221, 255);
+            }
+
+            #div2:target {
+              background-color: rgb(174, 112, 216);
+              color:rgb(79, 59, 116);
+              border: 10px dotted green;
+            }
+        </style>
+    </head>
+    <body>
+
+        <a href="#div1" id="one">First</a><br>
+        <a href="#div2" id="two">Second</a><br><br>
+
+        <div id="div1">First Div</div>
+        <div id="div2">Second Div</div>
+
+    </body>
+</html>
